@@ -1,7 +1,13 @@
 {
 	"name": "mineskin-cf-api-proxy",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"private": true,
+	"license": "MIT",
+	"author": {
+		"name": "Haylee Schäfer",
+		"url": "https://inventivetalent.org",
+		"email": "haylee@inventivetalent.org"
+	},
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
@@ -15,5 +21,6 @@
 		"typescript": "^5.5.2",
 		"vitest": "~3.0.7",
 		"wrangler": "^4.7.0"
-	}
+	},
+	"packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
